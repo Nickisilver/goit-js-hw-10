@@ -44,7 +44,7 @@ function addMarkupCat(cat){
   const textDescription = ` 
   <h2 class="name">${cat.breeds[0].name}</h2>
   <p class="discription">${cat.breeds[0].description}</p>
-  <p class="temperament">${cat.breeds[0].temperament}</p>`
+  <p class="temperament">Temperament ${cat.breeds[0].temperament}</p>`
   
   imgContainer.insertAdjacentHTML('beforeend', img)
   discriptionContainer.insertAdjacentHTML('beforeend', textDescription)
